@@ -5,11 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Yadagiri Lavudiya | Sr. Software Test Engineer Portfolio" />
+  <meta property="og:title" content="Yadagiri Lavudiya | Sr. Software Test Engineer" />
+  <meta property="og:description" content="4+ years in test automation. Selenium, Appium, Playwright & Eggplant expert. Available for opportunities." />
+  <meta property="og:url" content="https://yadagiri-lavudiya.netlify.app" />
+  <meta property="og:type" content="website" />
   <title>Yadagiri Lavudiya | Portfolio</title>
 
   <!-- Google Fonts - We'll use this for the cool developer font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230a0e1a'/><text y='68' x='50' text-anchor='middle' font-size='48' font-family='monospace' font-weight='bold' fill='%2300d4ff'>YL</text></svg>">
 
   <!-- Your stylesheet -->
   <link rel="stylesheet" href="style.css" />
@@ -19,15 +24,20 @@
 
   <!-- ===== NAVBAR ===== -->
   <nav id="navbar">
-    <div class="nav-logo">&lt;YL /&gt;</div>
-    <ul class="nav-links">
-      <li><a href="#home">- &lt;/Home&gt;</a></li>
-      <li><a href="#about">- &lt;/AboutMe&gt;</a></li>
-      <li><a href="#skills">- &lt;/Skills&gt;</a></li>
-      <li><a href="#experience">- &lt;/Experience&gt;</a></li>
-      <li><a href="#projects">- &lt;/Projects&gt;</a></li>
-    </ul>
-  </nav>
+  <div class="nav-logo">&lt;YL /&gt;</div>
+  <ul class="nav-links">
+    <li><a href="#home">- &lt;/Home&gt;</a></li>
+    <li><a href="#about">- &lt;/AboutMe&gt;</a></li>
+    <li><a href="#skills">- &lt;/Skills&gt;</a></li>
+    <li><a href="#experience">- &lt;/Experience&gt;</a></li>
+    <li><a href="#projects">- &lt;/Projects&gt;</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
 
   <!-- ===== HERO SECTION ===== -->
   <section id="home">
@@ -40,7 +50,10 @@
         I build scalable automation frameworks and ensure enterprise applications 
         ship with quality. Specialised in Selenium, Appium, Playwright & Eggplant.
       </p>
-      <a href="mailto:yadagiri1122@gmail.com" class="btn">Let's Talk!</a>
+      <div class="hero-buttons">
+  <a href="mailto:yadagiri1122@gmail.com" class="btn">Let's Talk!</a>
+  <a href="assets/Yadagiri_Resume.pdf" download class="btn btn-outline">Download Resume</a>
+</div>
     </div>
   </section>
 
